@@ -105,25 +105,25 @@ Se o projeto estiver em um repositório Git:
 
 ```bash
 # SSH
-npm install git+ssh://git@github.com/seu-usuario/angular-jest-test-generator.git
+npm install git+ssh://git@github.com/marcioalmeid//angular-jest-test-generator.git
 
 # HTTPS
-npm install git+https://github.com/seu-usuario/angular-jest-test-generator.git
+npm install git+https://github.com/marcioalmeid/angular-jest-test-generator.git
 
 # Branch específica
-npm install git+https://github.com/seu-usuario/angular-jest-test-generator.git#develop
+npm install git+https://github.com/marcioalmeid/angular-jest-test-generator.git#develop
 
 # Tag específica
-npm install git+https://github.com/seu-usuario/angular-jest-test-generator.git#v1.0.0
+npm install git+https://github.com/marcioalmeid/angular-jest-test-generator.git#v1.0.0
 
 # Commit específico
-npm install git+https://github.com/seu-usuario/angular-jest-test-generator.git#abc123
+npm install git+https://github.com/marcioalmeid/angular-jest-test-generator.git#abc123
 ```
 
 #### GitLab
 
 ```bash
-npm install git+https://gitlab.com/seu-usuario/angular-jest-test-generator.git
+npm install git+https://gitlab.com/marcioalmeid/angular-jest-test-generator.git
 ```
 
 #### Repositório Privado
