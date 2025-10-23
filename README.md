@@ -3,10 +3,28 @@
 [![npm version](https://img.shields.io/npm/v/@angular-tools/jest-test-generator.svg)](https://www.npmjs.com/package/@angular-tools/jest-test-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js CI](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org/)
+[![Angular](https://img.shields.io/badge/Angular-14%20to%2018-red.svg)](https://angular.io/)
+[![Angular 17](https://img.shields.io/badge/Angular%2017-✅%20Compatible-success.svg)](./COMPATIBILITY.md)
 
 Sistema automatizado e inteligente para geração de testes unitários em projetos Angular, utilizando análise estática de código com **ts-morph** para máxima precisão.
 
 **Gere testes Jest completos e funcionais em menos de 1 segundo!** ⚡
+
+✅ **Compatível com Angular 14, 15, 16, 17 e 18** - Incluindo Standalone Components, Signals e Control Flow!
+
+## 🎨 Dashboard Interativo
+
+Use o dashboard para facilitar todas as operações:
+
+```bash
+# Dashboard Terminal (Recomendado)
+./scripts/dashboard.sh
+
+# Dashboard Web
+open scripts/dashboard.html
+```
+
+📖 [Guia do Dashboard](./scripts/DASHBOARD.md) | [Quick Start](./QUICK_START_DASHBOARD.md) | [Compatibilidade Angular 17](./COMPATIBILITY.md)
 
 ## 🚀 Quick Start
 
@@ -24,7 +42,9 @@ npm test
 
 ## 📋 Índice
 
+- [Dashboard Interativo](#-dashboard-interativo)
 - [Características](#-características)
+- [Compatibilidade](#-compatibilidade)
 - [Instalação](#-instalação)
 - [Uso Básico](#-uso-básico)
 - [Exemplos](#-exemplos)
@@ -58,9 +78,33 @@ npm test
 
 ### 🚀 Facilidade de Uso
 
+- **Dashboard Interativo**: Terminal e Web para gerenciar instalação
 - **CLI intuitivo**: Interface de linha de comando amigável
 - **Processamento em lote**: Gera testes para múltiplos arquivos
 - **Feedback visual**: Output colorido com informações detalhadas
+
+## 🔄 Compatibilidade
+
+### Versões Suportadas
+
+| Angular | TypeScript | Jest | Status |
+|---------|------------|------|--------|
+| **17.x** | 5.x | 29.x | ✅ **Totalmente compatível** |
+| 18.x | 5.x | 29.x | ✅ Compatível |
+| 16.x | 4.9.x | 29.x | ✅ Compatível |
+| 15.x | 4.8.x | 29.x | ✅ Compatível |
+| 14.x | 4.8.x | 29.x | ✅ Versão mínima |
+
+### Features Angular 17 Suportadas
+
+- ✅ Standalone Components
+- ✅ Signals (básico - customize conforme necessário)
+- ✅ Control Flow (@if, @for, @switch)
+- ✅ Input/Output com signals
+- ✅ inject() function
+- ✅ ViewChild/ViewChildren required
+
+📖 **Guia completo:** [COMPATIBILITY.md](./COMPATIBILITY.md)
 
 ## 📦 Instalação
 
