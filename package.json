@@ -1,0 +1,60 @@
+{
+  "name": "@angular-tools/jest-test-generator",
+  "version": "1.0.0",
+  "description": "Gerador automático de testes Jest para projetos Angular usando análise ts-morph",
+  "main": "index.js",
+  "bin": {
+    "ng-test-gen": "./bin/cli.js",
+    "angular-test-generator": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "angular",
+    "jest",
+    "testing",
+    "test-generator",
+    "unit-tests",
+    "typescript",
+    "ts-morph",
+    "automation",
+    "code-generator",
+    "angular-testing"
+  ],
+  "author": "AAG Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/angular-jest-test-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/angular-jest-test-generator/issues"
+  },
+  "homepage": "https://github.com/your-org/angular-jest-test-generator#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=14.0.0",
+    "jest": ">=29.0.0",
+    "typescript": ">=4.8.0"
+  },
+  "dependencies": {
+    "ts-morph": "^21.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "utils/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
