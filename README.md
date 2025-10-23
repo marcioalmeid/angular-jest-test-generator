@@ -3,6 +3,34 @@
 ### Requirement
 npm install -D jest @types/jest ts-jest
 
+#### Troubleshooting 
+You need to install the @types/jest package, which provides the necessary type declarations for Jest in a TypeScript project. Use either npm or yarn:
+```
+    npm install --save-dev @types/jest
+    # or
+    yarn add --dev @types/jest
+```
+
+#### Configure tsconfig.json.
+
+```
+    {
+      "compilerOptions": {
+        "types": ["jest", "node"] // Include "jest" here
+      }
+    }
+```
+
+#### Clear and Reinstall node_modules.
+Sometimes, a corrupted node_modules directory or package-lock.json/yarn.lock can lead to type resolution issues. Try the following:
+Código
+
+    rm -rf node_modules
+    rm package-lock.json # or yarn.lock if using Yarn
+    npm install # or yarn install
+    
+#### Restart Your IDE/Editor.
+
 
 [![npm version](https://img.shields.io/npm/v/@angular-tools/jest-test-generator.svg)](https://www.npmjs.com/package/@angular-tools/jest-test-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
