@@ -1,5 +1,9 @@
 # 🧪 Angular Jest Test Generator
 
+### Requirement
+npm install -D jest @types/jest ts-jest
+
+
 [![npm version](https://img.shields.io/npm/v/@angular-tools/jest-test-generator.svg)](https://www.npmjs.com/package/@angular-tools/jest-test-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js CI](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org/)
